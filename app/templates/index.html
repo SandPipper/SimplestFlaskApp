@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form>
+  {{ form.hidden_tag() }}
+  {{ form.inputer(size=30) }}
+  <input type="checkbox" name="checker" required>
+  <input type="submit">
+</form>
+
+<p></p>
+
+<table border="2px" id="for_click">
+    <th>ID</th><th>String</th>
+    {% for string in strings %}
+    <tr>
+        <td>{{ string.id }}</td>
+        <td>{{ string.string }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h1>Counts of GET requests {{ count.counter }}</h1>
+
+
+
+{% endblock %}

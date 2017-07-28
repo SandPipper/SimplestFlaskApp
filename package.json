@@ -1,0 +1,17 @@
+{
+  "name": "Simplest",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.3.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

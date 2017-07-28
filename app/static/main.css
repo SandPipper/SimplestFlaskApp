@@ -1,0 +1,11 @@
+form {
+  border-radius: 5px;
+  padding: 20px;
+  background: green;
+}
+table {
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
